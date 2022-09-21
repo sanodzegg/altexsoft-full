@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+}
+.input {
+  width: 33.3%;
+  margin: auto;
+  display: flex;
+}
+.input input {
+  width: 90%;
+  margin: auto;
+  height: 50px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+.searchButton {
+  height: 50px;
+  width: 130px;
+  background-color: rgb(54, 172, 231);
+  color: white;
+  border-style: none;
+  border-radius: 7px;
+}

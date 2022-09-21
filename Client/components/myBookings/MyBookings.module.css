@@ -1,0 +1,17 @@
+.parent {
+    margin-top: 105px;
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+@media screen and (max-width: 525px) {
+    .parent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px
+    }
+}

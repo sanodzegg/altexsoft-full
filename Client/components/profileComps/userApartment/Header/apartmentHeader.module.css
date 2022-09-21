@@ -1,0 +1,22 @@
+.wrapperActive, .wrapperInactive {
+    cursor: pointer;
+}
+
+.wrapperInactive .arrowWrapper {
+    transform: rotate(180deg);
+}
+
+.header {
+    display: inline-block;
+}
+
+.arrowWrapper {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.hr {
+    border: 1px solid #18A0FB;
+    opacity: 1;
+    margin: 15px 0;
+}

@@ -1,0 +1,78 @@
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+
+    margin-left: 115px;
+}
+
+#userLN {
+    margin-left: 20px;
+}
+
+.inputField {
+    padding: 8px 0 8px 14px;
+    border: 1px solid #00000080;
+    border-radius: 5px;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #000000ef;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#userAbout {
+    padding: 8px 14px;
+    resize: none;
+}
+
+.inputField::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    color: #0000008b;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.errorLine {
+    color: #FF9292;
+    font-size: 14px;
+}
+
+.submitBtn {
+    width: 130px;
+    height: 40px;
+    background-color: #18A0FB;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+@media screen and (max-width: 1000px) {
+    #userFN {
+        width: 100%;
+    }
+    #userLN {
+        width: 100%;
+        margin: 25px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .formWrapper {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .formWrapper {
+        align-items: center;
+    }
+    .inputField {
+        width: 100%;
+    }
+}

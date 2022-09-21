@@ -1,0 +1,34 @@
+{
+  "name": "Altexsoft_educational_project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.2",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "express-validator": "^6.14.2",
+    "js-cookie": "^3.0.1",
+    "leaflet": "^1.8.0",
+    "moment": "^2.29.4",
+    "next": "12.1.6",
+    "react": "^18.1.0",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "^18.1.0",
+    "react-hook-form": "^7.33.1",
+    "react-leaflet": "^4.0.1",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6"
+  }
+}

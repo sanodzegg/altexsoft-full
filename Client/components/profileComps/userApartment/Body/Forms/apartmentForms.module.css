@@ -1,0 +1,80 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    max-height: 800px;
+    width: 40.5%;
+}
+
+.errorLine {
+    color: #FF9292;
+    font-size: 14px;
+}
+
+.mapIcon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: unset !important;
+    user-select: none;
+}
+
+.mapIcon svg {
+    user-select: none;
+    cursor: pointer;
+    fill: #18A0FB;
+}
+
+.addressWrapper {
+    width: 100% !important;
+    position: relative;
+}
+
+.apartmentForm, .apartmentFormAddress {
+    width: 100%;
+    margin: 12.5px 0;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid #00000080;
+    resize: none;
+}
+
+.apartmentFormAddress {
+    padding-right: 50px;
+}
+
+.apartmentForm::placeholder, .apartmentFormAddress::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000CC;
+}
+
+.dateWrapper {
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+}
+
+.dateWrapper > .apartmentForm {
+    width: 49%;
+}
+
+.dateWrapper > .errorLine {
+    display: block;
+}
+
+@media screen and (max-width: 1290px) {
+    .dateWrapper {
+        flex-direction: column;
+    }
+    .dateWrapper > .apartmentForm {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .wrapper {
+        width: 100%;
+    }
+}

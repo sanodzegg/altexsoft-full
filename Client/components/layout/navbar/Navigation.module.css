@@ -1,0 +1,30 @@
+.logoHolder a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.logoHolder a:hover {
+  color: rgb(73, 73, 73);
+}
+
+.navbar {
+  max-width: 1140px !important;
+  margin: 0;
+}
+
+.logout {
+  color: rgb(0, 183, 255);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 183, 255);
+  background-color: rgb(255, 255, 255);
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+}
+.buttonsHolder {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}

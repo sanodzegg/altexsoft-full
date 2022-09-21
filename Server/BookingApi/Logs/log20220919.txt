@@ -1,0 +1,99 @@
+2022-09-19 08:54:18.187 +04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-19 08:54:18.367 +04:00 [DBG] Hosting starting
+2022-09-19 08:54:18.853 +04:00 [INF] User profile is available. Using 'C:\Users\sanog\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-09-19 08:54:18.859 +04:00 [DBG] Reading data from file 'C:\Users\sanog\AppData\Local\ASP.NET\DataProtection-Keys\key-9c915bfe-be80-4a22-9eed-b01f38659855.xml'.
+2022-09-19 08:54:18.962 +04:00 [DBG] Found key {9c915bfe-be80-4a22-9eed-b01f38659855}.
+2022-09-19 08:54:18.981 +04:00 [DBG] Considering key {9c915bfe-be80-4a22-9eed-b01f38659855} with expiration date 2022-10-25 17:49:22Z as default key.
+2022-09-19 08:54:18.984 +04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-09-19 08:54:18.987 +04:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-09-19 08:54:18.989 +04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-09-19 08:54:18.993 +04:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-09-19 08:54:18.997 +04:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-09-19 08:54:19.001 +04:00 [DBG] Using key {9c915bfe-be80-4a22-9eed-b01f38659855} as the default key.
+2022-09-19 08:54:19.002 +04:00 [DBG] Key ring with default key {9c915bfe-be80-4a22-9eed-b01f38659855} was loaded during application startup.
+2022-09-19 08:54:19.518 +04:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 640BC01496AD2A71BC20798282EADD809C1BED8A)
+2022-09-19 08:54:19.567 +04:00 [INF] Now listening on: https://localhost:7058
+2022-09-19 08:54:19.568 +04:00 [INF] Now listening on: http://localhost:5058
+2022-09-19 08:54:19.569 +04:00 [DBG] Loaded hosting startup assembly BookingApi
+2022-09-19 08:54:19.570 +04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-19 08:54:19.571 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-19 08:54:19.590 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-19 08:54:19.592 +04:00 [INF] Hosting environment: Development
+2022-09-19 08:54:19.595 +04:00 [INF] Content root path: D:\Users\sanog\Desktop\BookingApi\BookingApi\
+2022-09-19 08:54:19.596 +04:00 [DBG] Hosting started
+2022-09-19 08:54:19.955 +04:00 [DBG] Connection id "0HMKPVC1MLKRH" accepted.
+2022-09-19 08:54:19.957 +04:00 [DBG] Connection id "0HMKPVC1MLKRH" started.
+2022-09-19 08:54:19.966 +04:00 [DBG] Connection id "0HMKPVC1MLKRI" accepted.
+2022-09-19 08:54:19.968 +04:00 [DBG] Connection id "0HMKPVC1MLKRI" started.
+2022-09-19 08:54:19.983 +04:00 [DBG] Connection id "0HMKPVC1MLKRH" received FIN.
+2022-09-19 08:54:19.983 +04:00 [DBG] Connection id "0HMKPVC1MLKRI" received FIN.
+2022-09-19 08:54:19.995 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-19 08:54:19.995 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-19 08:54:20.148 +04:00 [DBG] Connection id "0HMKPVC1MLKRJ" accepted.
+2022-09-19 08:54:20.732 +04:00 [DBG] Connection id "0HMKPVC1MLKRH" stopped.
+2022-09-19 08:54:20.732 +04:00 [DBG] Connection id "0HMKPVC1MLKRI" stopped.
+2022-09-19 08:54:20.733 +04:00 [DBG] Connection id "0HMKPVC1MLKRJ" started.
+2022-09-19 08:54:20.736 +04:00 [DBG] Connection id "0HMKPVC1MLKRH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-19 08:54:20.736 +04:00 [DBG] Connection id "0HMKPVC1MLKRI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-19 08:54:20.811 +04:00 [DBG] Connection id "0HMKPVC1MLKRJ" received FIN.
+2022-09-19 08:54:20.813 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-19 08:54:20.825 +04:00 [DBG] Connection id "0HMKPVC1MLKRJ" stopped.
+2022-09-19 08:54:20.826 +04:00 [DBG] Connection id "0HMKPVC1MLKRJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-19 08:54:23.089 +04:00 [DBG] Connection id "0HMKPVC1MLKRK" accepted.
+2022-09-19 08:54:23.091 +04:00 [DBG] Connection id "0HMKPVC1MLKRK" started.
+2022-09-19 08:54:23.094 +04:00 [DBG] Connection id "0HMKPVC1MLKRK" received FIN.
+2022-09-19 08:54:23.095 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-19 08:54:23.095 +04:00 [DBG] Connection id "0HMKPVC1MLKRL" accepted.
+2022-09-19 08:54:23.099 +04:00 [DBG] Connection id "0HMKPVC1MLKRK" stopped.
+2022-09-19 08:54:23.100 +04:00 [DBG] Connection id "0HMKPVC1MLKRL" started.
+2022-09-19 08:54:23.101 +04:00 [DBG] Connection id "0HMKPVC1MLKRK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-19 08:54:23.199 +04:00 [DBG] Connection 0HMKPVC1MLKRL established using the following protocol: "Tls12"
+2022-09-19 08:54:23.253 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger - -
+2022-09-19 08:54:23.291 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-19 08:54:23.479 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/index.html - -
+2022-09-19 08:54:23.485 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger - - - 301 0 - 225.8981ms
+2022-09-19 08:54:23.682 +04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-19 08:54:23.935 +04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-19 08:54:23.937 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/index.html - - - 200 - text/html;charset=utf-8 457.4786ms
+2022-09-19 08:54:23.950 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/swagger-ui.css - -
+2022-09-19 08:54:23.950 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/swagger-ui-standalone-preset.js - -
+2022-09-19 08:54:23.950 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7058/_framework/aspnetcore-browser-refresh.js - -
+2022-09-19 08:54:23.950 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/swagger-ui-bundle.js - -
+2022-09-19 08:54:23.955 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7058/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 5.6742ms
+2022-09-19 08:54:23.981 +04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-09-19 08:54:23.984 +04:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-09-19 08:54:23.987 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/swagger-ui.css - - - 200 143632 text/css 37.2142ms
+2022-09-19 08:54:23.990 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 40.2749ms
+2022-09-19 08:54:24.002 +04:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-09-19 08:54:24.004 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 54.1591ms
+2022-09-19 08:54:24.023 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7058/_vs/browserLink - -
+2022-09-19 08:54:24.077 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7058/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.6331ms
+2022-09-19 08:54:24.225 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/v1/swagger.json - -
+2022-09-19 08:54:24.324 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/favicon-32x32.png - -
+2022-09-19 08:54:24.325 +04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-09-19 08:54:24.331 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/favicon-32x32.png - - - 200 628 image/png 7.1573ms
+2022-09-19 08:54:24.351 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.3854ms
+2022-09-19 08:54:27.553 +04:00 [DBG] Connection id "0HMKPVC1MLKRL" received FIN.
+2022-09-19 08:54:27.558 +04:00 [DBG] Connection id "0HMKPVC1MLKRL" is closed. The last processed stream ID was 17.
+2022-09-19 08:54:27.560 +04:00 [DBG] Connection id "0HMKPVC1MLKRL" sending FIN because: "The client closed the connection."
+2022-09-19 08:54:27.571 +04:00 [DBG] Connection id "0HMKPVC1MLKRL" stopped.

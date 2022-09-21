@@ -1,0 +1,97 @@
+.card {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+    border: 1px solid #00000080;
+  
+    max-width: 685px;
+  }
+  .img {
+    object-fit: cover;
+  }
+  .bookingInfo {
+    padding: 3.125vw 3.385vw;
+  }
+  
+  .bookingTitle {
+    margin: 0;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+  
+  .bookingDetails span {
+    font-weight: 500;
+  }
+  
+  .bookingDetails span:nth-child(2) {
+    margin-left: 30px;
+  }
+  
+  .bookingOverview {
+    margin: 20px 0 30px 0;
+    font-weight: 400;
+  }
+  
+  .bookingFooter,
+  .bookingStatus {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bookingFooter {
+    justify-content: space-between;
+  }
+  
+  .bookingFrom {
+    margin-right: 5px;
+  }
+  
+  .bookingTo {
+    margin-left: 5px;
+  }
+  
+  .bookingStatus {
+    gap: 7px;
+  }
+  
+  .accepted {
+    color: #18a0fb;
+  }
+  
+  .declined {
+    color: #bb252599;
+  }
+  
+  .pending {
+    color: #00000099;
+  }
+  
+  @media screen and (max-width: 855px) {
+    .bookingFooter {
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 525px) {
+    .bookingFooter {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  @media screen and (max-width: 365px) {
+    .bookingFooter {
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 10px;
+    }
+  }
+  

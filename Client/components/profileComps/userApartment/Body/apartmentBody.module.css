@@ -1,0 +1,17 @@
+.apartmentWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 0 55px 0;
+}
+
+.apartmentWrapper div {
+    width: 40%;
+}
+
+@media screen and (max-width: 1090px) {
+    .apartmentWrapper {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+}

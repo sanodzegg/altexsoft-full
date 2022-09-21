@@ -1,0 +1,15 @@
+.wrapper {
+    max-width: 1430px;
+    width: 100%;
+    margin: 0 auto 215px auto;
+
+    padding: 0 10px;
+}
+
+.pageTitle {
+    margin: 100px 0 90px 0;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}

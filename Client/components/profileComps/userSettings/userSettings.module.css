@@ -1,0 +1,41 @@
+.userWrapper {
+    width: 100%;
+    max-width: 1430px;
+    margin: 0 auto;
+  
+    padding: 40px 45px;
+  
+    display: flex;
+    align-items: center;
+  
+    border: 1px solid #00000080;
+    border-radius: 5px;
+  }
+  
+  .img {
+    width: 320px;
+    height: 350px;
+    cursor: pointer;
+    border: 1px solid #00000080;
+    object-fit: cover;
+  }
+  
+  .fileInput {
+    display: none;
+  }
+  
+  @media screen and (max-width: 980px) {
+    .userWrapper {
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .img {
+      width: 71.111vw;
+      height: 77.778vw;
+    }
+  }
+  

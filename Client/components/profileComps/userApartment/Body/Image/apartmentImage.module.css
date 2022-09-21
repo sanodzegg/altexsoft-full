@@ -1,0 +1,25 @@
+.img {
+    width: 560px;
+    height: 335px;
+    border: 1px solid #00000080;
+    cursor: pointer;
+    object-fit: cover;
+  }
+  
+  .imgError {
+    border: 1px solid #ff9292;
+    width: 560px;
+    height: 335px;
+  }
+  
+  .fileInput {
+    display: none;
+  }
+  
+  @media screen and (max-width: 680px) {
+    .img {
+      width: 82.353vw;
+      height: 49.265vw;
+    }
+  }
+  

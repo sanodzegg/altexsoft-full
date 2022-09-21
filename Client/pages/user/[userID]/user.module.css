@@ -1,0 +1,42 @@
+.userWrapper {
+    font-family: 'Monserrat', sans-serif;
+    max-width: 1430px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+.userProfileHeading {
+    width: 100%;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin: 115px auto 130px auto;
+}
+
+.button {
+    background-color: #18A0FB;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 11px 32px;
+    border-radius: 5px;
+    outline: unset;
+    border: unset;
+    margin: 10px 0 140px 0;
+}
+
+@media screen and (max-width: 980px) {
+    .userWrapper {
+        min-width: 580px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .userWrapper {
+        min-width: 95.305vw;
+    }
+}
